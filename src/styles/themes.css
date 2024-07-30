@@ -1,0 +1,57 @@
+:root {
+  --color-primary: #e57192;
+  --color-primary-light-1: #e990a4; /* 10% white mixed */
+  --color-primary-light-2: #ecafbc; /* 20% white mixed */
+  --color-primary-light-3: #f0cdd4; /* 30% white mixed */
+  --color-primary-light-4: #f3ebec; /* 40% white mixed */
+  --color-primary-light-5: #f6f5f5; /* 50% white mixed */
+  --color-primary-light-6: #fbfbfb; /* 60% white mixed */
+  --color-primary-light-7: #fefefe; /* 70% white mixed */
+  --color-primary-light-8: #fefefe; /* 80% white mixed */
+  --color-primary-light-9: #fefefe; /* 90% white mixed */
+
+  --color-success: #67c23a;
+  --color-warning: #e6a23c;
+  --color-danger: #f56c6c;
+  --color-info: #909399;
+}
+
+/* Buttons */
+.ivu-btn-info {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-info);
+}
+
+.ivu-btn-info:hover {
+  background-color: var(--color-primary-light-1);
+  color: white;
+  border-color: var(--color-info);
+}
+
+/* Pagination Button */
+.ivu-page-item-active {
+  background-color: var(--color-primary);
+  border-color: white;
+}
+
+.ivu-page-item-active:hover {
+  background-color: var(--color-primary-light-1);
+  border-color: white;
+}
+
+/* Nav bar */
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active, 
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, 
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active, 
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+
+/* Toggle */
+.ivu-switch-checked {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+}

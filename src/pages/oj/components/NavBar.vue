@@ -128,6 +128,7 @@
 </script>
 
 <style lang="less" scoped>
+  @import '../../../styles/themes.css';
   #header {
     min-width: 300px;
     position: fixed;
@@ -172,4 +173,5 @@
       font-weight: 600;
     }
   }
+
 </style>

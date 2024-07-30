@@ -21,7 +21,7 @@
 
 
             <li>
-              <i-switch size="large" v-model="formFilter.myself" @on-change="handleQueryChange">
+              <i-switch size="large" v-model="formFilter.myself" @on-change="handleQueryChange"> -->
                 <span slot="open">{{$t('m.Mine')}}</span>
                 <span slot="close">{{$t('m.All')}}</span>
               </i-switch>

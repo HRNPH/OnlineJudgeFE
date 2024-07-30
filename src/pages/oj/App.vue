@@ -70,6 +70,7 @@ export default {
 </script>
 
 <style lang="less">
+@import '../../styles/themes.css';
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
