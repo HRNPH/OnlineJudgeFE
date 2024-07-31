@@ -14,6 +14,7 @@
   --color-warning: #e6a23c;
   --color-danger: #f56c6c;
   --color-info: #909399;
+  --color-clickable: #57a3f3;
 }
 
 /* Buttons */
@@ -49,9 +50,66 @@
   border-bottom: 2px solid var(--color-primary);
 }
 
-
 /* Toggle */
 .ivu-switch-checked {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
+}
+
+#problem-content .title {
+  color: var(--color-primary) !important;
+}
+
+.ivu-icon-clipboard {
+  color: var(--color-info);
+}
+
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item-selected, .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item-selected:hover {
+  color: #fff;
+  background: var(--color-primary);
+}
+
+.ivu-btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.ivu-btn-primary:hover {
+  background-color: var(--color-primary-light-1);
+  color: white;
+}
+
+.ivu-btn-ghost {
+  color: var(--color-info);
+  background-color: transparent;
+  border-color: var(--color-info);
+}
+
+.ivu-btn-ghost:hover {
+  color: var(--color-primary-light-1);
+  background-color: transparent;
+  border-color: var(--color-primary-light-1);
+}
+
+.ivu-input:hover {
+  border-color: var(--color-primary);
+  /* outline: 0; */
+  /* -webkit-box-shadow: 0 0 0 2px var(--color-primary-light-1); */
+  /* box-shadow: 0 0 0 2px var(--color-primary-light-1); */
+}
+
+.ivu-input:focus {
+  border-color: var(--color-primary);
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px var(--color-primary-light-1);
+  box-shadow: 0 0 0 2px var(--color-primary-light-1);
+}
+
+.ivu-btn-text:hover {
+  color: var(--color-primary);
+}
+
+.ivu-table-cell span {
+  /* color: var(--color-primary) !important; */
 }
