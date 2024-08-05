@@ -115,7 +115,7 @@
           </VerticalMenu-item>
         </template>
 
-        <VerticalMenu-item v-if="!this.contestID || OIContestRealTimePermission" :route="submissionRoute">
+        <VerticalMenu-item v-if="!this.contestID || OIContestRealTimePermission" :route="submissionRoute" class="border-primary">
           <Icon type="navicon-round"></Icon>
            {{$t('m.Submissions')}}
         </VerticalMenu-item>
@@ -622,6 +622,10 @@
     margin-top: 20px;
     width: 500px;
     height: 480px;
+  }
+
+  .border-primary:hover {
+    border-left: 2px solid var(--color-primary);
   }
 </style>
 
