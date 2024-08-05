@@ -2,9 +2,11 @@
   <div id="header">
     <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" class="oj-menu">
       <div class="logo">
-        <div class="logo-pic">
-          <img src="../../../assets/logo.svg" alt="DevCommu Logo" />
-        </div>
+        <a href="/">
+          <div class="logo-pic">
+            <img src="../../../assets/logo.svg" alt="DevCommu Logo" />
+          </div>
+        </a>
         <span>{{ website.website_name }}</span>
       </div>
       <Menu-item name="/">
@@ -158,9 +160,12 @@ export default {
       margin-right: 10px;
       display: flex;
       align-items: center;
+
       img {
-        width: 40px; /* Adjust the size as needed */
-        height: 40px; /* Adjust the size as needed */
+        width: 40px;
+        /* Adjust the size as needed */
+        height: 40px;
+        /* Adjust the size as needed */
         border-radius: 50%;
         margin-top: auto;
       }
