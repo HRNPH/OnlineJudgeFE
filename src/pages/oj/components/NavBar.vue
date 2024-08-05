@@ -147,7 +147,6 @@ export default {
   .logo {
     margin-left: 2%;
     margin-right: 2%;
-    margin-top: 5px;
     font-size: 20px;
     float: left;
     line-height: 60px;
