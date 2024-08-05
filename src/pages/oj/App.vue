@@ -123,11 +123,11 @@ a {
     }
 
     h3 a {
-      color: #e74c3c;
+      color: var(--color-primary);
     }
 
     p a {
-      color: #e74c3c;
+      color: var(--color-primary);
       font-weight: bold;
     }
 

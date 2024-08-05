@@ -147,6 +147,7 @@ export default {
   .logo {
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 5px;
     font-size: 20px;
     float: left;
     line-height: 60px;
@@ -156,10 +157,12 @@ export default {
     .logo-pic {
       margin-right: 10px;
       display: flex;
+      align-items: center;
       img {
         width: 40px; /* Adjust the size as needed */
         height: 40px; /* Adjust the size as needed */
         border-radius: 50%;
+        margin-top: auto;
       }
     }
   }
